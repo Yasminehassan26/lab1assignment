@@ -15,7 +15,7 @@ public class Calc implements icalculator {
     public float divide(int x, int y) {
         k = 0;
         if(y==0){
-        throw new RuntimeException();
+        throw new RuntimeException("Number cant be divided by zero");
         }
    else if (x==0){
 return 0;    } 
